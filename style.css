@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
+#header-title::before {
+content:url(https://i0.wp.com/harborpointdentalgroup.com/wp-content/uploads/2022/11/Guardian-logo-550x158-1.png?ssl=1);
+}
+
 body,
 .forge-flow {
   font-family: 'Inter', serif;
