@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
 body,
 .forge-flow {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Inter', serif;
   background-color: #fff;
 }
 
@@ -19,7 +19,7 @@ body,
 }
 
 .form-group label > span {
-  color: #7B858E;
+  color: #767676;
   font-size: 14px;
   font-weight: 600;
 }
@@ -61,12 +61,12 @@ body .ant-form-item-has-error .ant-input:focus {
 .ant-btn.ant-btn-cta,
 .ant-btn.ant-btn-cta:hover,
 .ant-btn.ant-btn-cta:active {
-  background: #3740F5;
+  background: #111111;
   color: white;
 }
 
 .ant-btn.ant-btn-link,
 .ant-btn.ant-btn-link:hover,
 .ant-btn.ant-btn-link:active {
-  color: #3740F5;
+  color: #5100FE;
 }
