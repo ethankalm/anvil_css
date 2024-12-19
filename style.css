@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 body,
 .forge-flow {
@@ -6,22 +6,26 @@ body,
   background-color: #fff;
 }
 
+#header-title {
+  font-weight: 600;
+}
+
 #page-title {
   margin-bottom: 30px;
+  font-weight: 600;
 }
 
 #page-title::after {
   display: none;
 }
 
+
 .form-group .ant-form-item-label {
   padding-bottom: 8px;
 }
 
 .form-group label > span {
-  color: #767676;
-  font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .form-group input {
@@ -35,6 +39,11 @@ button.circle-icon-button-container[disabled] .button-circle {
   background: transparent !important;
 }
 
+.ant-btn.ant-btn-cta, .ant-btn.ant-btn-cta:hover, .ant-btn.ant-btn-cta:active {
+  font-weight: 500;
+}
+
+
 .forge-flow > div:last-child {
   background: #f8f8f8;
   box-shadow: none;
@@ -43,6 +52,11 @@ button.circle-icon-button-container[disabled] .button-circle {
 .forge-page {
   height: 100vh;
 }
+
+.forge-page-description {
+  color: #767676;
+}
+
 
 body .ant-input:hover,
 body .ant-input:focus,
